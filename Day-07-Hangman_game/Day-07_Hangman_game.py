@@ -324,5 +324,5 @@ while "_" in under_score and lives >0:
     print(display)
     print(stages[lives])
 if lives > 0: 
-    print("You gussed the word:",random_select)
+    print("You gussed the right word:",random_select)
 
