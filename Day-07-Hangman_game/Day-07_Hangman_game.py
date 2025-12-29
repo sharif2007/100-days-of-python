@@ -286,7 +286,7 @@ word_list = [
 lives = 6 
 print (logo)
 random_select= random.choice(word_list)
-print (random_select)
+
 
 under_score=""
 
@@ -325,4 +325,3 @@ while "_" in under_score and lives >0:
     print(stages[lives])
 if lives > 0: 
     print("You gussed the right word:",random_select)
-
