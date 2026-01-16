@@ -1,32 +1,31 @@
-capitals ={
-    "France": "Paris",
-    "Germany": "Berlin",
-}
+programming_dictionaries = {"Bug": "An error in code"}
 
-travel_log = {
-    "France": ["Paris","Lille","Dijon"],
-    "Germany": ["Stuttgart","Berlin"],
-}
-#print Lille
+print(programming_dictionaries["Bug"])
 
-# print(travel_log["France"][1])
+programming_dictionaries["Loop"]="The code that run in loop"
 
+print(programming_dictionaries)
 
+#Creating a empty_dictionary
+empty_dictionary ={}
 
-nested_list=["A","B",["C","D"]]
-#print "D"
-# print(nested_list[2][1])
+print(empty_dictionary)
 
-#list inside dictionary
-travel_log = {
-    "France": {
-        "cities_visited":["Paris","Lille","Dijon"],
-        "total_visited":12
-    },
-    "Germany":{
-    "cities_visited":["Berlin","Hamburg","Stuttgart"],
-    "total_visited":5,
-    }
-}
+#Wipe out a dictionary 
 
-print(travel_log["Germany"]["cities_visited"][2])
+# programming_dictionaries = {}
+
+print (programming_dictionaries)
+
+#edit an item in dictionary 
+
+programming_dictionaries["Bug"]="It is moth"
+
+print(programming_dictionaries["Bug"])
+
+#Loop through dictionary
+
+for thing in programming_dictionaries:
+    print(thing)
+    print(programming_dictionaries[thing])
+    
